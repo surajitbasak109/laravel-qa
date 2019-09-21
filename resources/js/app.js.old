@@ -5,6 +5,10 @@
  */
 
 require('./bootstrap');
+import autosize from 'autosize';
+if (document.querySelector('textarea').length > 0) {
+    autosize(document.querySelectorAll('textarea'));
+}
 require('./custom');
 
 window.Vue = require('vue');
@@ -31,6 +35,3 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
-
-import autosize from 'autosize';
-autosize(document.querySelectorAll('textarea'));
