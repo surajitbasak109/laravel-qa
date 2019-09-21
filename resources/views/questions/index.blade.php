@@ -15,6 +15,8 @@
                 </div>
 
                 <div class="card-body">
+                    @include('layouts._messages')
+
                     @if (count($questions) > 0)
                     @foreach ($questions as $question)
                     <div class="media">
