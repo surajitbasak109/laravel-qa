@@ -49637,6 +49637,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./custom */ "./resources/js/custom.js");
 
+__webpack_require__(/*! ./fontawesome */ "./resources/js/fontawesome.js");
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -49798,6 +49800,24 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 
+
+/***/ }),
+
+/***/ "./resources/js/fontawesome.js":
+/*!*************************************!*\
+  !*** ./resources/js/fontawesome.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* import fontawesome from '@fortawesome/fontawesome-free';
+import faCaretUp from '@fortawesome/free-solid-svg-icons/faCaretUp';
+import faCaretDown from '@fortawesome/free-solid-svg-icons/faCaretDown';
+import faStar from '@fortawesome/free-solid-svg-icons/faStar';
+import faCheck from '@fortawesome/free-solid-svg-icons/faCheck';
+
+fontawesome.library.add([faCaretUp, faCaretDown, faCheck, faStar]);
+ */
 
 /***/ }),
 
